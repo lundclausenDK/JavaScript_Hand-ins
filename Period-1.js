@@ -307,4 +307,61 @@ printNames();
 
 
 
+// TYPESCRIPT
+// a
+interface iBook {
+    title: string;
+    readonly author: string;
+    published: string;
+    pages: number;
+}
+
+// b
+function myBook(book: iBook): void {
+    console.log(book.title, book.author, book.published, book.pages);
+}
+
+let bible = {
+    title: "The Bible",
+    author: "A holy crowd",
+    published: "Too long ago",
+    pages: 1000
+};
+
+myBook(bible);
+
+// c
+// Duck Typing is a nickname for type or shape checking. Some critics like dynamic binding better (wiki)
+
+// d
+interface iBook2 {
+    title: string;
+    author: string;
+    published?: string;
+    pages?: number;
+
+    thisFunction(): void;
+}
+
+// e - done
+
+// f
+class Book implements iBook2 {
+
+    title: string = "The adventure";
+    author: string = "Joe Rogan";
+    published: string = "12 february 2018";
+    pages: number = 400;
+
+    constructor() {
+
+    }
+
+    thisFunction(): void {
+        throw new Error("Method not implemented.");
+    }
+
+}
+
+
 
