@@ -1,0 +1,22 @@
+* {font-family: 'Open Sans', sans-serif;}
+body {background: #111 url("../images/background.jpg") no-repeat fixed; background-size: 100%;}
+h1 {margin: 0 0 20px 0; font-family: 'Raleway', sans-serif; font-weight: normal; font-size: 48px; color: white}
+h3 {margin-bottom: 20px;}
+/*a {color: #00B7FF;}*/
+
+.container {margin-bottom: 40px;}
+.container, .login-box  {background: rgba(255,255,255, 0.6); border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);}
+.login-box {width: 300px; padding: 20px; position: absolute; top: 0; left: 40px; }
+/*.login-box h3, .login-box p {text-shadow: #FFF 0 1px 0;}*/
+.index-logo {position: absolute; width: 95px; height: 95px; top: 20px; left: 292px;}
+.index-heading {margin: 20px 30px 20px 20px;}
+
+.site-header a {color: white;}
+
+.blogpost-container {background: rgba(255, 255, 255, 0.6); padding: 10px; border-radius: 6px; margin-bottom: 10px; border: solid 1px #bbb;}
+.blogpost-container form {display: inline-block;}
+
+.friends-list {list-style: none;}
+.friends-list li {background:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADE0lEQVR42qVWTUwTQRSeWRYKbSVoKFYTDoYfBUlEMUYPgBo9EQnBxHAtxJMh8YB4UVT0IiYe9CoxKkZjlChCwglQ480QDlASJAWESCx/0i1lS7sdv1nZZlt2u41OMnlvfvZ9733z5s1SkqJd++wtgWhCP4tejp6/vbSM7kUfQn/9oKb8u5kNamK4mFLaBbWeMSZAj+/DmPGxJjGlQO2D2t5VXTZtCdD+ZdKDDx7jA4feYAoAbS4EtRUgT00B4PkNiE7yf60DlN3bAQDjHnjRzecMvEsnAr3eokVCNc4hxoxo+UcATlclPxMNoBeiwTRoxsjBvBxy/oCbxGKMDM4tEd96yIqq96CqkfJUBOKkPls0j5RohMhSgOWSKO2sqyaiIKhrkRijD0dn2Fo4YhaBll1lFFlzkx+sflNElpks/aZboQ31gzJ3Pm07dzKBomfeBeZdDaYC4HoHj2AYei2f2NoIkk1pnUTDckKsFftd5OqZEwlz3RPzZGptw4qmT7RtZPyXHAwUyNI6Y4pi6FFmRga9e6GWuJx2dRyKKvT+Nx8LKzGrCPy05eWAwmIxauXK0UI3uVJTpep9Pj/5+nM1nTvBaEtPvwJFSJV2PILW08fJ4X0udTzqD9C304sMCWUVQYwD+KG7zDYV5eexS8fKaZFrd8IhzwZCbGBmif6QNi0o6ukf4YecvCk7U6SeU0dIVaHb9KJhSMdXJPJmapFtIXUNAEY4QAeU28nkGWWOWeueWEBGBY2WblHP875SQRAmt4HjXjRWHqJ1FcVplYrh+RWG22180fgkoujFoEEPAHpoacEedUgSq642js/PSmH2zudPBuhFLbqoTja/+MgfmDGs2dPihFuGjczsHGJz5pIsuyN5WS12qEXTcc8QRTPEE2JRrgVRZDBKbY5dLEMU0yvXOhBel+7wBEn4QBCoDV5yb0VbdqpyzVXjBycpkkfodjHL9pcCh5PogjBr6pMJ4+ZPptYuvxosdrr2dgGgnrOSxqP/AfI653zHWaVyCYWwBPQ0wU78t2WbvmVIL+QQZMrflj/weE5HwUKWBgAAAABJRU5ErkJggg==') no-repeat left; padding: 0 0 0 30px; margin-bottom: 10px;}
+.friends-list a {color: #333}
+.friends-list a:hover {color: deepskyblue; text-decoration: none;}
